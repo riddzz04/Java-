@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class helloworld{
+public static void main(String[] args){
+
+Scanner sc= new Scanner(System.in);
+
+//integer input
+
+System.out.println("Enter a number");
+int a= sc.nextInt();
+System.out.println("number is:" +a);
+
+//float input
+
+System.out.println("Enter a number");
+float b= sc.nextFloat();
+System.out.println("number is:" +b);
+
+//character input
+
+System.out.println("enter a character");
+char c=sc.next().charAt(0);
+System.out.println("character  is:" +c);
+
+//string input
+System.out.println("enter a string");
+String d=sc.next();   
+ //sc.next will not take input after whitespace
+System.out.println("string is : "+d);
+
+System.out.println("enter a string");
+String e= sc.nextLine(); 
+//sc.nextLine will accept the string after whitespace
+System.out.println("string is: "+e);
+
+
+
+}
+}

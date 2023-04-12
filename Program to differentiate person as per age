@@ -9,7 +9,7 @@ if(a<=12){
 System.out.println("child");
 
 }
-else if(a>=12 && a<18)
+else if(a>12 && a<18)
 {
 System.out.println("teenager");
 }

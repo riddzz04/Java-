@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class helloworld{
+public static void main(String[] args){
+
+Scanner sc= new Scanner(System.in);
+
+//integer input
+
+System.out.println("Enter first number");
+int a= sc.nextInt();
+System.out.println("number is:" +a);
+
+System.out.println("enter second number");
+int b=sc.nextInt();
+System.out.println("number is:" +b);
+
+System.out.println("sum of a and b is " +(a+b));
+
+
+}

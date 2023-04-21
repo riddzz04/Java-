@@ -1,0 +1,16 @@
+class const{
+const()
+{
+int a=10;
+int b=5;
+int c;
+c=a+b;
+System.out.println(" default constructor ");
+System.out.println("total is " +c);
+}
+public static void main(String[] args)
+{
+const obj= new const(10,5);
+}
+
+}

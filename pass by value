@@ -1,0 +1,12 @@
+class val{
+ static void value(int a){
+a *= 100;
+}
+public static void main(String[] args)
+{
+int a=10;
+System.out.println("before method called" +a);
+value(a);
+System.out.println("after method called" +a);
+}
+}

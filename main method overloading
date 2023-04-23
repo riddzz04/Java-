@@ -1,0 +1,25 @@
+class method{
+public static void main(int args)
+{
+System.out.println("int method");
+System.out.println(args);
+
+}
+public static void main(char args)
+{
+System.out.println("char method");
+System.out.println(args);
+}
+
+public static void main(double[] args)
+{
+System.out.println("double method");
+System.out.println(args);
+}
+
+public static void main(String[] args)
+{
+System.out.println("String method");
+System.out.println("12");
+}
+}

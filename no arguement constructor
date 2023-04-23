@@ -1,0 +1,18 @@
+class constructor{
+int id;
+int rollno;
+
+constructor()
+{
+System.out.println("no arguement constructor");
+}
+
+public static void main(String[] args)
+{
+constructor c1= new constructor();
+c1.id=12;
+c1.rollno=13;
+System.out.println(c1.id);
+System.out.println(c1.rollno);
+}
+}

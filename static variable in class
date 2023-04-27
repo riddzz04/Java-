@@ -1,0 +1,22 @@
+class def{
+
+int id;
+String name;
+static String  company="git";
+void print()
+{
+System.out.println("id is " +id+ "name is " +name+ " company is " +company);
+}
+public static void main(String [] args)
+{
+def e1=new def();
+e1.id=1;
+e1.name="user1";
+e1.print();
+
+def e2=new def();
+e2.id=2;
+e2.name="user2";
+e2.print();
+}
+}

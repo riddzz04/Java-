@@ -1,0 +1,9 @@
+public class Test {
+final int a = 10;
+public static void main(String[] args) {
+Test test = new Test();
+test.a = 15;
+System.out.println("a = "+test.a);
+}
+}
+• F

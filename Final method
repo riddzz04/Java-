@@ -1,0 +1,19 @@
+class Study
+{
+ final void learn()
+ {
+ System.out.println("learning something new");
+ }
+}
+
+class Student extends Study
+{
+ void learn()
+ {
+ System.out.println("learning something interesting");
+ }
+ public static void main(String args[]) {
+ Student object= new Student();
+ object.learn();
+ }
+}

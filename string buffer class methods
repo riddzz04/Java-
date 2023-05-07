@@ -1,0 +1,24 @@
+public class str{
+    public static void main(String[] args)
+    {  //append() method
+        StringBuffer s1=new StringBuffer("hello");
+        s1.append("world");
+        System.out.println(s1);
+        
+    //insert() method
+    StringBuffer s2= new StringBuffer("hello");
+    s2.insert(3,"wor");
+    System.out.println(s2);
+    
+    //reverse() method
+    StringBuffer s3= new StringBuffer("hello");
+    s3.reverse();
+    System.out.println(s3);
+    
+    //replace() method
+    StringBuffer s4= new StringBuffer("hello");
+    s4.replace(2,4,"ja");
+    System.out.println(s4);
+        
+    }
+}

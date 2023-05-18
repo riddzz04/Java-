@@ -1,0 +1,12 @@
+import java.util.*;
+public class string{
+    public static void main(String[] args)
+    {
+ Scanner sc= new Scanner(System.in);
+
+    String r="dello";
+    System.out.println(r.startsWith("ri"));
+    System.out.println(r.contains("ll"));
+    System.out.println(r.endsWith("li"));
+}
+}

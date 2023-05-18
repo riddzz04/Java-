@@ -1,0 +1,14 @@
+import java.util.*;
+public class string{
+    public static void main(String[] args)
+    {
+ Scanner sc= new Scanner(System.in);
+ String s="rohit";
+ s=s+"gupta";
+ System.out.println(s);
+ s=s+10;
+ System.out.println(s);
+ s=s+'a';
+ System.out.println(s);
+}
+}

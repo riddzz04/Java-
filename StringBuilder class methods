@@ -1,0 +1,36 @@
+import java.util.*;
+public class string{
+    public static void main(String[] args)
+    {
+ Scanner sc= new Scanner(System.in);
+ StringBuilder s=new StringBuilder("Hello");
+ 
+ //append method
+ s.append(" world");
+ System.out.println(s);
+ s.append(10);
+  System.out.println(s);
+  s.append('s');
+   System.out.println(s);
+ 
+ //setCharAt() method
+s.setCharAt(0,'M'); 
+ System.out.println(s);
+ 
+ //insert(index,char) method
+ s.insert(2,'y');
+  System.out.println(s);
+  
+  //deleteCharAt() method
+  s.deleteCharAt(0);
+   System.out.println(s);
+   
+   //reverse() method
+   s.reverse();
+    System.out.println(s);
+    
+    //delete(i,j) method
+    s.delete(2,5);
+     System.out.println(s);
+}
+}

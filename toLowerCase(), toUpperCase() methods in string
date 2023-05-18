@@ -1,0 +1,12 @@
+import java.util.*;
+public class string{
+    public static void main(String[] args)
+    {
+ Scanner sc= new Scanner(System.in);
+
+    String r="RellO";
+    System.out.println(r.toUpperCase());
+    System.out.println(r.toLowerCase());
+  
+}
+}

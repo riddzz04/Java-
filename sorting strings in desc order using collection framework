@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Collections;
+
+public class array
+{
+    public static void main(String[] args)
+    {
+        ArrayList<String> l=new ArrayList<>();
+      
+        //adding elements
+        l.add("d");
+        l.add("k");
+        l.add("a");
+        l.add("c");
+        
+        //printing list
+        System.out.println(l);
+        System.out.println("sorted arraylist is");
+        Collections.sort(l,Collections.reverseOrder());
+        System.out.println(l);
+      
+        
+        
+          
+    }
+}

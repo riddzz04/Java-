@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Collections;
+
+public class array
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> l=new ArrayList<>();
+        
+        
+        //adding elements
+        l.add(12);
+        l.add(45);
+        l.add(66);
+        l.add(1);
+        
+        //printing list
+        System.out.println(l);
+        
+        System.out.println("reversed arraylist is");
+        Collections.reverse(l);
+        System.out.println(l);
+        
+        
+        
+        
+        
+          
+    }
+}

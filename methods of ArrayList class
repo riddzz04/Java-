@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class array
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> l=new ArrayList<>();
+        Scanner sc= new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        
+        //adding elements
+        l.add(a);
+        l.add(b);
+        l.add(c);
+        l.add(d);
+        
+        //printing list
+        System.out.println(l);
+        
+        //accessing element
+        System.out.println(l.get(0));
+        System.out.println(l.get(1));
+        
+        //modify value at a particular index
+        l.set(0,11);
+        System.out.println(l);
+        
+        //remove value at any index
+        l.remove(3);
+        System.out.println(l);
+        
+        //removing value without knowing index
+        l.remove(Integer.valueOf(3));
+        System.out.println(l);
+        
+        
+        
+          
+    }
+}

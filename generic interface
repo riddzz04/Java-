@@ -1,0 +1,19 @@
+interface A<T>
+ {
+// Declare an abstract method with parameter t of type T.
+ public void m1(T t);
+}
+// This generic class implement generic interface.
+class Test<T> implements A<T> {
+public void m1(T t)
+{
+ System.out.println("m1-Test");
+}
+public static void main(String[] args)
+{
+ Test<Integer> t = new Test<Integer>();
+ t.m1(25);
+ Test<String> t2 = new Test<String>();
+ t2.m1("John");
+ }
+}

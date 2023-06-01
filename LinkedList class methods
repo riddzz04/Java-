@@ -1,0 +1,59 @@
+import java.util.*;
+public class ll
+{
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> l=new LinkedList<>();
+        
+        //adding elements
+        l.add(1);
+        l.add(2);
+        l.add(3);
+        l.add(4);
+        System.out.println(l);
+        
+        //adding first and last element
+        l.addFirst(10);
+        l.addLast(20);
+        System.out.println(l);
+        
+        //check if list contains element or not
+        l.contains(3);
+        System.out.println(l.contains(3));
+        
+        //access elements
+        l.get(3);
+        System.out.println(l.get(3)); 
+        
+        //accessing first and last element
+        System.out.println(l.getFirst());
+        System.out.println(l.getLast());
+        
+        //returns element at a particular index
+        System.out.println(l.indexOf(7));
+        
+        //length of linkedlist
+        System.out.println(l.size());
+        
+        //set an element
+        l.set(3,77);
+        System.out.println(l);
+        
+        //convert to array
+        System.out.println(l.toArray());
+        
+        //convert to string
+        System.out.println(l.toString());
+        
+        //remove head
+        System.out.println(l.remove());
+        System.out.println(l);
+        
+        //removes full list
+        l.clear();
+        System.out.println(l);
+        
+        
+        
+    }
+}
